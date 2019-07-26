@@ -1,0 +1,58 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #52958B; */
+    color:white;
+    height: 85vh;
+}
+
+.container{
+    background-color: rgb(82, 149, 139);
+    border-radius: 1.5em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 50vh;   
+}
+
+.icon{
+    height: 4em;
+    width: 3em;
+}
+
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.register input{
+    all: unset;
+    color: black;
+    background: white;
+    margin: 1em;
+    width: 25vw;
+    height: 2em;
+    border-radius: 0.3em;
+
+}
+
+button {
+     all: unset;
+     align-self: center;
+     font-size: 1.3em;
+     padding: 0.2em 0.3em;
+     border-radius: 0.2em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(197, 224, 236, 0.70);
+    color: #004D47;
+}
