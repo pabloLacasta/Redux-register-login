@@ -12,7 +12,7 @@
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
     "redux-localstorage-simple": "^2.1.6",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
